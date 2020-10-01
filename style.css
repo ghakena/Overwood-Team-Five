@@ -11,12 +11,17 @@ body {
 /* Please add code in the space right below your section */
 /* Banner/Landing Page */
 .section-1-banner {
-  background: linear-gradient(-20deg, rgba(0, 0, 255, 0.466), #f5f3fc27),
+  width: 100vw;
+  background: linear-gradient(160deg, rgba(0, 68, 255, 0.466), #f5f3fc6c),
     url("https://res.cloudinary.com/rokuirie/image/upload/v1601540317/Overwood-Team-Five/banner-image.jpg");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.navbar {
+  height: 8vh;
+  width: 100%;
 }
 a.overwood {
   font-weight: 900;
@@ -24,13 +29,21 @@ a.overwood {
 }
 p.over {
   color: #23d1d3;
-  font-size: 2rem;
+  font-size: 1.8rem;
   display: inline;
 }
 p.wood {
   color: #1e266d;
-  font-size: 2rem;
+  font-size: 1.8rem;
   display: inline;
+}
+div.links ul li a {
+  font-weight: bold;
+  color: whitesmoke;
+  letter-spacing: 0.07rem;
+}
+div.links ul li a:hover {
+  /* color: whitesmoke; */
 }
 .btn-login {
   background-color: #23d3d3;
@@ -47,7 +60,10 @@ p.wood {
   font-weight: 600;
 }
 .btn-createAcc:hover {
-  background-color: #23d3d3;
+  color: #9df3f5;
+}
+.banner {
+  margin-top: calc(100vh - 80vh);
 }
 
 /* Second Page */
@@ -57,6 +73,9 @@ p.wood {
 /* Fourth Page */
 
 /* Fifth Page */
+.section-5-our-products {
+  background-color: #1e266d, 100%;
+}
 
 /* Sixth Page */
 
