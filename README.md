@@ -36,7 +36,7 @@ This is how the sections are:
    - Next Steps
    
 ## NB. 
-1. I have everything you will need to work with Bootstrap within your respective sections
+1. I have included everything you will need to work with Bootstrap components within your respective sections
 2. The site's default font will be the Poppins font. I have already added a link to Poppins font provided by fonts.google.com
 
    
