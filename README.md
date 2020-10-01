@@ -39,4 +39,40 @@ This is how the sections are:
 1. I have included everything you will need to work with Bootstrap components within your respective sections
 2. The site's default font will be the Poppins font. I have already added a link to Poppins font provided by fonts.google.com
 
-   
+# Image Links
+Here are the links to the images you will use for your respective sections
+1. Rodrick
+Banner Image
+https://res.cloudinary.com/rokuirie/image/upload/v1601540317/Overwood-Team-Five/banner-image.jpg
+
+2.Benjamin
+Mission and Values
+https://res.cloudinary.com/rokuirie/image/upload/v1601540419/Overwood-Team-Five/mission-values.jpg
+
+3. Gibbs
+Our Guarantee section & Footer section
+No image required
+
+4. Deborah
+Testimonials Section
+You will need to find suitable images for the clients.
+
+5. Farouk
+Our Blog section
+  i. Image 1
+  https://res.cloudinary.com/rokuirie/image/upload/v1601540470/Overwood-Team-Five/blog-image-1.jpg
+  
+  ii. Image 2
+  https://res.cloudinary.com/rokuirie/image/upload/v1601540461/Overwood-Team-Five/blog-image-2.jpg
+  
+  iii. Image 3
+  https://res.cloudinary.com/rokuirie/image/upload/v1601540497/Overwood-Team-Five/blog-image-3.jpg
+  
+  iv. Image 4
+  https://res.cloudinary.com/rokuirie/image/upload/v1601540538/Overwood-Team-Five/blog-image-4.jpg
+  
+ 6. Temitope
+ Next steps section
+ https://res.cloudinary.com/rokuirie/image/upload/v1601540457/Overwood-Team-Five/next-steps-img.png
+  
+
