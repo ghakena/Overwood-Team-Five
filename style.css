@@ -4,47 +4,141 @@
     font-size: 10px;
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Poppins', sans-serif;
     color: #403C3C;
 }
 
 /* Please add code in the space right below your section */
+
 /* Banner/Landing Page */
-
-
-
-
-
 
 /* Second Page */
 
+@media (min-width: 769px) {
+    .section-2-our-guarantee {
+        background-color: #f2f2f2;
+        height: 80vh;
+        padding-top: 4vh;
+        width: 100%;
+    }
+    .guarantee-title {
+        font-size: 3.0rem;
+        margin-top: 5.0rem;
+        margin-bottom: 4.0rem;
+        font-weight: 700;
+        color: #1e266d;
+    }
+    .cards {
+        width: 100%;
+    }
+    .card {
+        display: flex;
+        flex-direction: row;
+        width: 18vw;
+        height: 40vh;
+        background-color: #ffffff;
+        border: 2px solid #ccc;
+        margin-right: 1vw;
+        margin-bottom: 0.5rem;
+    }
+    .first-card {
+        margin-left: 4vw;
+    }
+    .card-title {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: 2.0rem;
+        font-weight: bolder;
+        color: #222121;
+    }
+    .card-text {
+        margin-top: 4vh;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .card:hover {
+        box-shadow: 0 0 11px rgba(33, 33, 33, .4);
+    }
+    span.material-icons {
+        color: #2cd4d6;
+        font-size: 3.5rem;
+    }
+}
 
+@media (max-width: 480px) {
+    .section-9-footer {
+        height: 135vh;
+        width: 100%;
+        background-color: #1e266d;
+    }
+    .section-9-footer h5 {
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: whitesmoke;
+    }
+    .page-footer {
+        padding-top: 3vh;
+    }
+    .section-9-footer ul li a {
+        color: whitesmoke;
+        font-size: 1.0rem;
+    }
+    .form {
+        color: whitesmoke;
+    }
+}
 
+@media (max-width: 480px) {
+    .section-2-our-guarantee {
+        background-color: #f2f2f2;
+        height: 110vh;
+        padding-top: 4vh;
+        width: 100%;
+    }
+    .guarantee-title {
+        font-size: 2.0rem;
+        margin-top: 3.0rem;
+        margin-bottom: 2.0rem;
+        font-weight: 700;
+        color: #1e266d;
+    }
+    .card {
+        margin: 0 auto;
+        display: block;
+        width: 45vw;
+        height: 20vh;
+        margin-left: 27vw;
+        margin-right: 14vw;
+        border: 2px solid #ccc;
+        margin-bottom: 1.5rem;
+    }
+    .card-title {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+        color: #222121;
+    }
+    .card-text {
+        margin-top: 0.5vh;
+        font-size: 1.0rem;
+        font-weight: 400;
+    }
+    span.material-icons {
+        color: #2cd4d6;
+        font-size: 2.5rem;
+    }
+}
 
 /* Third Page */
 
-
-
-
-
 /* Fourth Page */
-
-
-
-
 
 /* Fifth Page */
 
-
-
-
-
 /* Sixth Page */
-
-
-
-
 
 /* Seventh Page */
 .section-7-next-steps{
@@ -149,12 +243,6 @@ body {
     font-size: 2rem;
 }
 
-/* 320px — 480px: Mobile devices
-481px — 768px: iPads, Tablets
-769px — 1024px: Small screens, laptops
-1025px — 1200px: Desktops, large screens
-1201px and more —  Extra large screens, TV */
-
 @media all and (min-width: 320px) and (max-width: 480px){
     .section-7-wrapper{
         padding: 4em 0.5em;
@@ -247,12 +335,83 @@ body {
         font-size: 1.75rem;
     }
 }
+
 /* Eigth Page */
-
-
-
-
-
 
 /* Ninth Page */
 
+@media (min-width: 769px) {
+    .section-9-footer {
+        height: 50vh;
+        background-color: #1e266d;
+    }
+    .page-footer {
+        padding-top: 3vh;
+    }
+    .section-9-footer h5 {
+        font-size: 1.9rem;
+        font-weight: 600;
+        color: whitesmoke;
+    }
+    .section-9-footer ul li a {
+        color: whitesmoke;
+        font-size: 1.5rem;
+        font-weight: lighter;
+    }
+    span.material-icons {
+        font-size: 2.0rem;
+        color: whitesmoke;
+    }
+    .form-group label {
+        color: whitesmoke;
+        font-size: 1.5rem;
+    }
+    .form-group input {
+        border: none;
+        border-radius: none;
+        height: 8vh;
+        color: #403C3C;
+        font-size: 1.5rem;
+    }
+    form .btn {
+        background-color: #2cd4d6;
+    }
+    button.btn {
+        padding: 1.6rem 2.0rem;
+        color: whitesmoke;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-9-footer {
+        height: 150vh;
+        background-color: #1e266d;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 30vw;
+    }
+    form.form-group label {
+        display: hidden;
+        text-align: left;
+    }
+    .form-group input {
+        border: none;
+        border-radius: none;
+        height: 5vh;
+        color: #403C3C;
+        font-size: 1.0rem;
+    }
+    form .btn {
+        background-color: #2cd4d6;
+        width: 15vw;
+    }
+    button.btn {
+        /* padding: 0.5rem 1.0rem; */
+        color: whitesmoke;
+        font-size: 1.2rem;
+    }
+}
