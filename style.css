@@ -11,8 +11,13 @@ body {
 
 /* Please add code in the space right below your section */
 /* Banner/Landing Page */
-
-
+.section-1-banner {
+    background-image: url("https://res.cloudinary.com/rokuirie/image/upload/v1601540317/Overwood-Team-Five/banner-image.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
