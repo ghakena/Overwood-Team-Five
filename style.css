@@ -17,8 +17,51 @@ body {
 
 
 /* Second Page */
-
-
+.section-2-our-guarantee {
+    background-color: #f2f2f2;
+    height: 80vh;
+    padding-top: 4vh;
+    width: 100%;
+}
+.guarantee-title {
+    font-size: 3.0rem;
+    margin-top: 5.0rem;
+    margin-bottom: 4.0rem;
+    font-weight: 700;
+    color: #1e266d;
+}
+.cards {
+    width: 100%;
+}
+.card {
+    display: flex;
+    flex-direction: row;
+    width: 20vw;
+    height: 40vh;
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.card-title {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2.0rem;
+    font-weight: bolder;
+    color: #222121;
+}
+.card-text {
+    margin-top: 4vh;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.card:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+span.material-icons {
+    color: #2cd4d6;
+    font-size: 3.5rem;
+}
 
 
 /* Third Page */
@@ -59,4 +102,42 @@ body {
 
 
 /* Ninth Page */
+@media (min-width: 481px) {
+    .section-9-footer {
+        height: 100vh;
+        width: 100vw;
+        background-color: #1e266d;
+    }
+    .section-9-footer h5 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: whitesmoke;
+}
+    .page-footer {
+    padding-top: 3vh;
+    }
+    .section-9-footer ul li a {
+    color: whitesmoke;
+    font-size: 1.0rem;
+}
+}
 
+@media (min-width: 769px) {
+.section-9-footer {
+    height: 40vh;
+    background-color: #1e266d;
+}
+.page-footer {
+    padding-top: 3vh;
+}
+.section-9-footer h5 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.section-9-footer ul li a {
+    color: whitesmoke;
+    font-size: 1.4rem;
+}
+
+}
