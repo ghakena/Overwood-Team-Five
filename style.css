@@ -1,68 +1,67 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-size: 10px;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
-    font-family: 'Poppins', sans-serif;
-    color: #403C3C;
+  font-family: "Poppins", sans-serif;
+  color: #403c3c;
 }
 
 /* Please add code in the space right below your section */
 /* Banner/Landing Page */
 .section-1-banner {
-    background-image: url("https://res.cloudinary.com/rokuirie/image/upload/v1601540317/Overwood-Team-Five/banner-image.jpg");
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background: linear-gradient(-20deg, rgba(0, 0, 255, 0.466), #f5f3fc27),
+    url("https://res.cloudinary.com/rokuirie/image/upload/v1601540317/Overwood-Team-Five/banner-image.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-
-
+a.overwood {
+  font-weight: 900;
+  font: "Raleway", sans-serif;
+}
+p.over {
+  color: #23d1d3;
+  font-size: 2rem;
+  display: inline;
+}
+p.wood {
+  color: #1e266d;
+  font-size: 2rem;
+  display: inline;
+}
+.btn-login {
+  background-color: #23d3d3;
+  color: whitesmoke;
+  font-weight: 600;
+}
+.btn-login:hover {
+  background-color: #1e266d;
+  color: whitesmoke;
+}
+.btn-createAcc {
+  background-color: #1e266d;
+  color: whitesmoke;
+  font-weight: 600;
+}
+.btn-createAcc:hover {
+  background-color: #23d3d3;
+}
 
 /* Second Page */
 
-
-
-
 /* Third Page */
-
-
-
-
 
 /* Fourth Page */
 
-
-
-
-
 /* Fifth Page */
-
-
-
-
 
 /* Sixth Page */
 
-
-
-
-
 /* Seventh Page */
-
-
-
-
 
 /* Eigth Page */
 
-
-
-
-
-
 /* Ninth Page */
-

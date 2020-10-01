@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,22 +12,55 @@
 
     <!--local styling section-->
     <link rel="stylesheet" href="style.css">
-    
+
     <!-- Online fonts section -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
     <section class="section-1-banner">
         <header>
-            <nav></nav>
+            <nav class="navbar navbar-expand-md">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                    aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand overwood pl-5" href="./index.html">
+                    <p class="over">OVER<p class="wood">WOOD</p></p>
+                </a>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Our Products<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">6 Things About Us</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0 mr-5">
+                        <a href="#login" class="btn btn-login mr-1">Login</a>
+                        <a href="#signup" class="btn btn-createAcc">Create Account</a>
+                    </form>
+                </div>
+            </nav>
         </header>
         <div class="container">
             <div class="row">
 
             </div>
         </div>
-        
+
     </section>
 
     <section class="section-2-our-guarantee">
@@ -73,4 +107,5 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
