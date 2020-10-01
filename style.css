@@ -47,11 +47,206 @@ body {
 
 
 /* Seventh Page */
+.section-7-next-steps{
+    background-color: #f8f9fa;
+}
+.section-7-wrapper{
+    padding: 4em 8em;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+}
+.section-7-wrapper .section-7-header{
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-7-header h2{
+    color: #1e266d;
+    font-weight: bold;
+    padding: 0%;
+    margin: 0%;
+}
+.section-7-header p{
+    font-size: 3.5rem;
+    font-weight: bolder;
+    padding: 0%;
+    margin: 0em 0em 1em 0em;
+    color: #403C3C;
+}
+.section-7-wrapper .section-7-content{
+    padding: 0%;
+    margin: 0%;
+}
+.section-7-content .picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    background: url("https://res.cloudinary.com/rokuirie/image/upload/v1601540457/Overwood-Team-Five/next-steps-img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section-7-content .content{
+    padding: 0em 2em;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.section-7-content .content .contentItem{
+    display: flex;
+    
+}
+.section-7-content .content .itemHeading{
+    padding: 1em;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+.section-7-content .itemHeading p{
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e266d;
+    width: 10rem;
+    height: 10rem;
+    padding: 2em;
+    margin: 0%;
+    font-weight: bold;
+    color: #fafafa;
+    text-align: center;
+    font-size: 1.75rem;
+}
+.section-7-content .content .contentItem .textContent{
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: flex-start;  
+    align-items: center;
+}
+.section-7-content .textContent p{
+    font-size: 2rem;
+    padding: 0%;
+    margin: 0%;
+}
+.section-7-content .content .textContent{
+    padding: 0%;
+    color: rgb(19, 18, 18);
+}
+.section-7-content .overText{
+    color: #23d3d3;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.section-7-content .woodText{
+    color:  #1e266d;
+    font-weight: bold;
+    font-size: 2rem;
+}
 
+/* 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
 
+@media all and (min-width: 320px) and (max-width: 480px){
+    .section-7-wrapper{
+        padding: 4em 0.5em;
+    }
+    .section-7-header h2{
+        font-size: 1.5rem;
+    }
+    .section-7-header p{
+        font-size: 2.75rem;
+        margin: 0em 0em 0.5em 0em;
+    }
+    .section-7-wrapper .section-7-content{
+        padding: 0%;
+        margin: 0%;
+    }
+    .section-7-wrapper .section-7-content .picture{
+        height: 25vh;
+    }
+    .section-7-content .content{
+        padding: 0em;
+        margin: 0%;
+    }
+    .section-7-content .content .contentItem{
+        display: flex;
+    }
+    .section-7-content .content .itemHeading{
+        padding: 1em 1em 1em 0em;
+    }
+    .section-7-content .itemHeading p{
+        border-radius: 50%;
+        width: 7.5rem;
+        height: 7.5rem;
+        padding: 1em;
+        font-size: 1.25rem;
+    }
+    .section-7-content .textContent p{
+        font-size: 1.5rem;
+    }
+    .section-7-content .overText{
+        color: #23d3d3;
+        font-weight: bold;
+        font-size: 1.75rem;
+    }
+    .section-7-content .woodText{
+        color:  #1e266d;
+        font-weight: bold;
+        font-size: 1.75rem;
+    }
+}
 
-
-
+@media all and (min-width: 481px) and (max-width: 768px){
+    .section-7-wrapper{
+        padding: 4em 1em;
+    }
+    .section-7-header h2{
+        font-size: 1.75rem;
+    }
+    .section-7-header p{
+        font-size: 3rem;
+        margin: 0em 0em 1em 0em;
+    }
+    .section-7-content .content{
+        padding: 0em;
+        margin: 0%;
+    }
+    .section-7-content .content .contentItem{
+        display: flex;
+    }
+    .section-7-content .content .itemHeading{
+        padding: 1em 1em 1em 1.5em;
+    }
+    .section-7-content .itemHeading p{
+        border-radius: 50%;
+        width: 7rem;
+        height: 7rem;
+        padding: 1em;
+        font-size: 1.25rem;
+    }
+    .section-7-content .textContent p{
+        font-size: 1.75rem;
+    }
+    .section-7-content .overText{
+        color: #23d3d3;
+        font-weight: bold;
+        font-size: 1.75rem;
+    }
+    .section-7-content .woodText{
+        color:  #1e266d;
+        font-weight: bold;
+        font-size: 1.75rem;
+    }
+}
 /* Eigth Page */
 
 
