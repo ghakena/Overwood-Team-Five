@@ -1,7 +1,7 @@
 # Overwood-Team-Five
 A team project to re-model the current Overwood website.
 
-The By default, I(Gibbs) have created the different sections that we shall develop in order to prevent conflicts during merging.
+By default, I (Gibbs) have created the different sections that we shall develop in order to prevent conflicts during merging.
 This is how the sections are:
 1. The landing page/banner section is the first page, with the class section-1-banner
 2. The Our Guarantee section is the second page, with the class section-2-our-guarantee
