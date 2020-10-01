@@ -174,13 +174,15 @@ body {
     .form-group input {
         border: none;
         border-radius: none;
-        height: 5vh;
+        height: 8vh;
+        color: #403C3C;
+        font-size: 1.5rem;
     }
     form .btn {
         background-color: #2cd4d6;
     }
     button.btn {
-        padding: 1.2rem 1.8rem;
+        padding: 1.6rem 2.0rem;
         color: whitesmoke;
         font-size: 1.5rem;
     }
@@ -195,18 +197,25 @@ body {
         display: flex;
         flex-direction: column;
         margin: 0 auto;
-        width: 50vw;
-        color: whitesmoke;
+        width: 30vw;
     }
     form.form-group label {
         display: hidden;
         text-align: left;
     }
+    .form-group input {
+        border: none;
+        border-radius: none;
+        height: 5vh;
+        color: #403C3C;
+        font-size: 1.0rem;
+    }
     form .btn {
         background-color: #2cd4d6;
+        width: 15vw;
     }
     button.btn {
-        padding: 1.2rem 1.8rem;
+        /* padding: 0.5rem 1.0rem; */
         color: whitesmoke;
         font-size: 1.2rem;
     }
