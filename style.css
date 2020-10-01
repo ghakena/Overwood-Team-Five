@@ -14,7 +14,6 @@ body {
 /* Banner/Landing Page */
 
 /* Second Page */
-
 @media (min-width: 769px) {
     .section-2-our-guarantee {
         background-color: #f2f2f2;
@@ -130,7 +129,6 @@ body {
         font-size: 2.5rem;
     }
 }
-
 /* Third Page */
 
 /* Fourth Page */
@@ -144,7 +142,6 @@ body {
 /* Eigth Page */
 
 /* Ninth Page */
-
 @media (min-width: 769px) {
     .section-9-footer {
         height: 50vh;
