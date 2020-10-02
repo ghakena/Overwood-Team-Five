@@ -575,6 +575,30 @@ div.links ul li a:hover {
     background-color: #eaf9f9;
 }
 
+@media (min-width: 481px) {
+    .section-8-blog {
+        height: 100vh;
+        padding: 1rem;
+    }
+    .blog-title-1 {
+        margin-top: 2rem;
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+    .blog-title-2 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 5vh;
+    }
+    .section-8-blog .carousel-caption h2 {
+        margin-bottom: 5vh;
+    }
+    .section-8-blog .carousel-caption p {
+        margin-bottom: 50.0vh;
+        font-size: 2.0rem;
+    }
+}
+
 @media (min-width: 769px) {
     .section-8-blog {
         height: 170vh;
