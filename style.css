@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 10px;
 }
 
 body {
@@ -118,6 +119,9 @@ div.links ul li a:hover {
 /* Third Page */
 
 /* Fourth Page */
+.section-4-six-things .credentials-title{
+    font-size: 2.5rem;
+}
 
 /* Fifth Page */
 
