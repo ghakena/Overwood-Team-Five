@@ -192,6 +192,7 @@ div.links ul li a:hover {
 
 .section-7-next-steps {
     background-color: #f8f9fa;
+    padding: 10em 0em;
 }
 
 .section-7-wrapper {
@@ -258,8 +259,10 @@ div.links ul li a:hover {
     justify-content: center;
     align-items: center;
 }
-
-.section-7-content .itemHeading p {
+.section-7-content .content .itemHeading a{
+    text-decoration: none;
+}
+.section-7-content .itemHeading p{
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -274,8 +277,10 @@ div.links ul li a:hover {
     text-align: center;
     font-size: 1.75rem;
 }
-
-.section-7-content .content .contentItem .textContent {
+.section-7-content .itemHeading p:hover{
+    background-color: #23d3d3;
+}
+.section-7-content .content .contentItem .textContent{
     padding: 0%;
     margin: 0%;
     display: flex;
@@ -287,6 +292,13 @@ div.links ul li a:hover {
     font-size: 2rem;
     padding: 0%;
     margin: 0%;
+    color: #403C3C;
+}
+.section-7-content .textContent a{
+    text-decoration: none;
+}
+.section-7-content .textContent p:hover{
+    color: #1e266d;
 }
 
 .section-7-content .content .textContent {
