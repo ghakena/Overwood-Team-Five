@@ -294,7 +294,7 @@ a.btn-investNow:hover {
   border-radius: 25px;
   padding: 0.5rem;
 }
-.section-5-our-products div .card {
+.section-5-our-products div div div.card {
   border-radius: 25px;
   max-width: 70rem;
   background: #f9f5f0;
@@ -302,9 +302,9 @@ a.btn-investNow:hover {
   font-size: 1rem;
   color: #252525;
 }
-.section-5-our-products div .card div .card-body{
+/* .section-5-our-products div .card div .card-body{
   width: 10px;
-}
+} */
 .section-5-our-products div .card div .card-body h4{
   font-size: 2rem;
 }
@@ -331,20 +331,24 @@ a.btn-investNow:hover {
 }
 
 .card-body p.wood {
-    color: #1e266d;
-    font-size: 1rem;
-    display: inline;
-    font-weight: bolder;
+  color: #1e266d;
+  font-size: 1rem;
+  display: inline;
+  font-weight: bolder;
 }
 
 .icon {
-    color: #23d1d3;
+  color: #23d1d3;
 }
-@media all {
-  .section-5-our-products {
-    background-color: #1e266d;
-    height: 100%;
-    padding: 7rem;
+@media (max-width: 480px) {
+  .section-5-our-products div div div.card {
+    
+  }
+  .our-products-img {
+    height: 18rem;
+    width: 29.5rem;
+    border-radius: 25px;
+    padding: 0.8rem;
   }
 }
 
