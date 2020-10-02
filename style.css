@@ -24,6 +24,11 @@ body {
 .navbar {
   height: 8vh;
 }
+.navbar-toggler-icon {
+  color: #1e266d;
+  font-size: 2rem;
+  border: 1px,#1e266d;
+}
 a.overwood {
   font-weight: 800;
   font-family: "Raleway", sans-serif;
