@@ -305,7 +305,7 @@ a.btn-investNow:hover {
 /* .section-5-our-products div .card div .card-body{
   width: 10px;
 } */
-.section-5-our-products div .card div .card-body h4{
+.section-5-our-products div div .card div .card-body h4{
   font-size: 2rem;
 }
 .prime {
@@ -341,14 +341,18 @@ a.btn-investNow:hover {
   color: #23d1d3;
 }
 @media (max-width: 480px) {
-  .section-5-our-products div div div.card {
-    
-  }
   .our-products-img {
-    height: 18rem;
-    width: 29.5rem;
-    border-radius: 25px;
-    padding: 0.8rem;
+    display: none;
+  }
+}
+@media (max-width: 769px) {
+  .our-products-img {
+    display: none;
+  }
+}
+@media (max-width: 993px) {
+  .our-products-img {
+    display: none;
   }
 }
 
