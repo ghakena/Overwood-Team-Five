@@ -651,7 +651,7 @@ div.links ul li a:hover {
 
 @media (max-width: 480px) {
     .section-9-footer {
-        height: 150vh;
+        height: 155vh;
         background-color: #00387a;
         color: whitesmoke;
     }
