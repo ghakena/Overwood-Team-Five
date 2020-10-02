@@ -340,6 +340,14 @@ a.btn-investNow:hover {
 .icon {
   color: #23d1d3;
 }
+
+.readMore a {
+  color: #23d1d3;
+  /* text-decoration: none; */
+}
+.readMore a:hover {
+  color: #1e266d;
+}
 @media (max-width: 480px) {
   .our-products-img {
     display: none;
