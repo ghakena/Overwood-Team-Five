@@ -14,42 +14,46 @@
   <link rel="stylesheet" href="style.css">
 
   <!-- Online fonts section -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!-- font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/238de8f49b.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
   <section class="section-1-banner">
-    <nav class="navbar navbar-expand-md">
-      <a class="navbar-brand overwood mt-3" href="./index.html">
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand overwood mt-3 mx-5" href="./index.html">
         <p class="over">OVER<p class="wood">WOOD</p>
         </p>
       </a>
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
-        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse links d-flex justify-content-end" id="navbarTogglerDemo03">
-        <ul class="navbar-nav mt-2 mt-lg-0">
-          <li class="nav-item">
+      <div class="collapse navbar-collapse links d-flex justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav mt-2 mt-lg-0 mx-5">
+          <li class="nav-item px-2">
             <a class="nav-link" href="#">Our Products<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item px-2">
             <a class="nav-link" href="#">FAQS</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item px-2">
             <a class="nav-link" href="#">Contact</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item px-2">
             <a class="nav-link" href="#">Blog</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item px-2">
             <a class="nav-link" href="#">6 Things About Us</a>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
+        <form class="form-inline my-2 my-lg-0 mx-5">
           <a href="#login" class="btn btn-login mr-1">Login</a>
           <a href="#signup" class="btn btn-createAcc">Create Account</a>
         </form>
@@ -57,18 +61,21 @@
     </nav>
 
     <div class="row banner">
-      <div class="col-sm-4">
-        <p>Earn 8-15% per annum</p>
+      <div class="col-sm-7">
+        <p class="rates">Earn 8-15% per annum</p>
         <h1>Safe, High-Yield Investments</h1>
         <p>We provide access to safe, high-yield investments for
           <br>
-          Africans (starting in Nigeria) with three products - 
+          Africans (starting in Nigeria) with three products -
           <br>
-          <a href=""><span>OVERWOOD PRIME</span></a>
-          <a href=""><span>OVERWOOD DOLLAR</span></a>
-          <a href=""><span>OVERWOOOD CHILD</span></a>
+          <a href="#"><span>OVERWOOD PRIME</span></a>
+          ,
+          <a href="#"><span>OVERWOOD DOLLAR</span></a>
+          &
+          <a href="#"><span>OVERWOOOD CHILD</span></a>
+          .
         </p>
-        <button><a href="">Invest Now</a></button>
+        <a class="btn btn-investNow btn-lg" href="#">Invest Now</a>
       </div>
     </div>
   </section>
@@ -86,8 +93,63 @@
   </section>
 
   <section class="section-5-our-products">
-    <div></div>
+    <h2 class="products mb-5">Our Products</h2>
+    <div class="container">
+      <div class="col-sm-10 mx-auto">
+        <div class="card my-3">
+          <div class="d-flex flex-md-row">
+            <div class="card-body">
+              <h4 class="prime">Overwood Prime</h4>
+              <p class="card-text"><p class="over">OVER</p><p class="wood">WOOD</p> PRIME suits
+                investors who are
+                looking for long-term growth and want to
+                protect their investment against market fluctuations.OVERWOOD PRIME is focused on...</p>
 
+              <i class="icon fas fa-arrow-right"></i><span><a href="#"> Read More</a></span>
+            </div>
+            <img class="our-products-img"
+              src="https://images.unsplash.com/photo-1568234928966-359c35dd8327?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+              alt="Card image cap">
+          </div>
+        </div>
+
+        <div class="card my-3">
+          <div class="d-flex flex-md-row">
+            <img class="our-products-img"
+              src="https://images.unsplash.com/photo-1565374392032-8007fb37c26e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+              alt="Card image cap">
+            <div class="card-body">
+              <h4 class="dollar">Overwood Dollar</h4>
+              <p class="card-text">
+              <p class="over">OVER</p>
+              <p class="wood">WOOD</p> DOLLAR
+              Investors can choose
+              to subscribe with Naira or US Dollar but the funds will always be held in US Dollars.
+              At maturity, you can choose to withdraw in ....</p>
+
+              <i class="icon fas fa-arrow-right"></i><span><a href="#"> Read More</a></span>
+            </div>
+          </div>
+        </div>
+        <div class="card my-3">
+          <div class="d-flex flex-md-row">
+            <div class="card-body">
+              <h4 class="child">Overwood Child</h4>
+              <p class="card-text">
+              <p class="over">OVER</p>
+              <p class="wood">WOOD</p> CHILD
+              was designed for investors who have young children and are looking to grow
+              the funds earmarked for their children’s current or future school fees...</p>
+
+              <i class="icon fas fa-arrow-right"></i><span><a href="#"> Read More</a></span>
+            </div>
+            <img class="our-products-img"
+              src="https://images.unsplash.com/photo-1579621970795-87facc2f976d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+              alt="Card image cap">
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section class="section-6-testimonials">

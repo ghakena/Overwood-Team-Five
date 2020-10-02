@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -12,16 +12,17 @@ body {
 /* Please add code in the space right below your section */
 /* Banner/Landing Page */
 .section-1-banner {
-  width: 100vw;
-  background: linear-gradient(160deg, rgba(0, 68, 255, 0.466), #f5f3fc6c),
-    url("https://res.cloudinary.com/rokuirie/image/upload/v1601540317/Overwood-Team-Five/banner-image.jpg");
+  background: linear-gradient(
+      270deg,
+      rgba(0, 45, 170, 0.39),
+      rgba(29, 90, 255, 0.39),
+      rgba(245, 245, 247, 0.424)
+    ), url("https://res.cloudinary.com/rokuirie/image/upload/v1601540317/Overwood-Team-Five/banner-image.jpg");
   height: 100vh;
-  background-position: center;
   background-size: cover;
 }
 .navbar {
   height: 8vh;
-  width: 100%;
 }
 a.overwood {
   font-weight: 800;
@@ -29,18 +30,19 @@ a.overwood {
 }
 p.over {
   color: #23d1d3;
-  font-size: 2rem;
+  font-size: 2.2rem;
   display: inline;
 }
 p.wood {
   color: #1e266d;
-  font-size: 2rem;
+  font-size: 2.2rem;
   display: inline;
 }
 div.links ul li a {
-  font-weight: bold;
+  font-weight: 400;
+  font-size: 1.1rem;
   color: whitesmoke;
-  letter-spacing: 0.07rem;
+  letter-spacing: 0.03rem;
 }
 div.links ul li a:hover {
   /* color: whitesmoke; */
@@ -64,6 +66,30 @@ div.links ul li a:hover {
 }
 .banner {
   margin-top: calc(100vh - 80vh);
+  margin-left: 3rem;
+}
+.banner div p.rates {
+  color: #1e266d;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+.banner div h1 {
+  color: #1e266d;
+  font-size: 3.125rem;
+  font-weight: bold;
+}
+.banner div p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.banner div a {
+  text-decoration: none;
+}
+.btn-investNow {
+  background-color: #1e266d;
+  color: whitesmoke;
+  font-weight: 600;
+  border-radius: 5px;
 }
 
 /* Second Page */
@@ -76,7 +102,13 @@ div.links ul li a:hover {
 .section-5-our-products {
   background-color: #1e266d;
   height: 120vh;
-  padding: 12rem;
+  padding: 7rem;
+}
+.products {
+  font-size: 2.5rem;
+  color: #f9f5f0;
+  font-weight: bold;
+  text-align: center;
 }
 .our-products-img {
   height: 11em;
@@ -84,10 +116,41 @@ div.links ul li a:hover {
   border-radius: 15px;
   padding: 0.5rem;
 }
+.section-5-our-products div div .card {
+  border-radius: 15px;
+  background: #f9f5f0;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #252525;
+}
 .prime {
   color: #4ba5fa;
-  font-weight: 900;
+  font-weight: 700;
 }
+.dollar {
+  color: #23d3d3;
+  font-weight: 700;
+}
+.child {
+  color: #8950fc;
+  font-weight: 700;
+}
+.card-body p.over {
+  color: #23d1d3;
+  font-size: 1rem;
+  display: inline;
+  font-weight: bolder;
+}
+.card-body p.wood {
+  color: #1e266d;
+  font-size: 1rem;
+  display: inline;
+  font-weight: bolder;
+}
+.icon {
+  color: #23d1d3;
+}
+
 /* Sixth Page */
 
 /* Seventh Page */
