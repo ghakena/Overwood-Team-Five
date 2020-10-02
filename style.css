@@ -1,101 +1,115 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700;800;900&display=swap");
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  color: #403c3c;
+    font-family: "Poppins", sans-serif;
+    color: #403c3c;
 }
 
 /* Please add code in the space right below your section */
+
 /* Banner/Landing Page */
+
 .section-1-banner {
-  background: linear-gradient(
-      270deg,
-      rgba(0, 45, 170, 0.39),
-      rgba(29, 90, 255, 0.39),
-      rgba(245, 245, 247, 0.424)
-    ), url("https://res.cloudinary.com/rokuirie/image/upload/v1601540317/Overwood-Team-Five/banner-image.jpg");
-  height: 100vh;
-  background-size: cover;
+    background: linear-gradient( 270deg, rgba(0, 45, 170, 0.39), rgba(29, 90, 255, 0.39), rgba(245, 245, 247, 0.424)), url("https://res.cloudinary.com/rokuirie/image/upload/v1601540317/Overwood-Team-Five/banner-image.jpg");
+    height: 100vh;
+    background-size: cover;
 }
+
 .navbar {
-  height: 8vh;
+    height: 8vh;
 }
+
 .navbar-toggler-icon {
-  color: #1e266d;
-  font-size: 2rem;
-  border: 1px,#1e266d;
+    color: #1e266d;
+    font-size: 2rem;
+    border: 1px, #1e266d;
 }
+
 a.overwood {
-  font-weight: 800;
-  font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-family: "Raleway", sans-serif;
 }
+
 p.over {
-  color: #23d1d3;
-  font-size: 2.2rem;
-  display: inline;
+    color: #23d1d3;
+    font-size: 2.2rem;
+    display: inline;
 }
+
 p.wood {
-  color: #1e266d;
-  font-size: 2.2rem;
-  display: inline;
+    color: #1e266d;
+    font-size: 2.2rem;
+    display: inline;
 }
+
 div.links ul li a {
-  font-weight: 400;
-  font-size: 1.1rem;
-  color: whitesmoke;
-  letter-spacing: 0.03rem;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: whitesmoke;
+    letter-spacing: 0.03rem;
 }
+
 div.links ul li a:hover {
-  /* color: whitesmoke; */
+    /* color: whitesmoke; */
 }
+
 .btn-login {
-  background-color: #23d3d3;
-  color: whitesmoke;
-  font-weight: 600;
+    background-color: #23d3d3;
+    color: whitesmoke;
+    font-weight: 600;
 }
+
 .btn-login:hover {
-  background-color: #1e266d;
-  color: whitesmoke;
+    background-color: #1e266d;
+    color: whitesmoke;
 }
+
 .btn-createAcc {
-  background-color: #1e266d;
-  color: whitesmoke;
-  font-weight: 600;
+    background-color: #1e266d;
+    color: whitesmoke;
+    font-weight: 600;
 }
+
 .btn-createAcc:hover {
-  color: #9df3f5;
+    color: #9df3f5;
 }
+
 .banner {
-  margin-top: calc(100vh - 80vh);
-  margin-left: 3rem;
+    margin-top: calc(100vh - 80vh);
+    margin-left: 3rem;
 }
+
 .banner div p.rates {
-  color: #1e266d;
-  font-size: 0.875rem;
-  font-weight: bold;
+    color: #1e266d;
+    font-size: 0.875rem;
+    font-weight: bold;
 }
+
 .banner div h1 {
-  color: #1e266d;
-  font-size: 3.125rem;
-  font-weight: bold;
+    color: #1e266d;
+    font-size: 3.125rem;
+    font-weight: bold;
 }
+
 .banner div p {
-  font-size: 1rem;
-  font-weight: 600;
+    font-size: 1rem;
+    font-weight: 600;
 }
+
 .banner div a {
-  text-decoration: none;
+    text-decoration: none;
 }
+
 .btn-investNow {
-  background-color: #1e266d;
-  color: whitesmoke;
-  font-weight: 600;
-  border-radius: 5px;
+    background-color: #1e266d;
+    color: whitesmoke;
+    font-weight: 600;
+    border-radius: 5px;
 }
 
 /* Second Page */
@@ -106,14 +120,14 @@ div.links ul li a:hover {
         padding-top: 4vh;
         width: 100%;
     }
-    .guarantee-title {
+    .section-2-our-guarantee .guarantee-title {
         font-size: 2.0rem;
-        margin-top: 3.0rem;
+        margin-top: 2.0rem;
         margin-bottom: 2.0rem;
         font-weight: 700;
         color: #1e266d;
     }
-    .card {
+    .section-2-our-guarantee .card {
         margin: 0 auto;
         display: block;
         width: 50vw;
@@ -123,19 +137,19 @@ div.links ul li a:hover {
         border: 2px solid #ccc;
         margin-bottom: 1.5rem;
     }
-    .card-title {
+    .section-2-our-guarantee .card-title {
         margin-top: 0.5rem;
         margin-bottom: 0.5rem;
         font-size: 1.3rem;
         font-weight: bold;
         color: #222121;
     }
-    .card-text {
+    .section-2-our-guarantee .card-text {
         margin-top: 0.5vh;
         font-size: 1.0rem;
         font-weight: 400;
     }
-    span.material-icons {
+    .section-2-our-guarantee span.material-icons {
         color: #2cd4d6;
         font-size: 2.5rem;
     }
@@ -148,14 +162,14 @@ div.links ul li a:hover {
         padding-top: 4vh;
         width: 100vw;
     }
-    .guarantee-title {
+    .section-2-our-guarantee .guarantee-title {
         font-size: 2.0rem;
         margin-top: 3.0rem;
         margin-bottom: 2.0rem;
         font-weight: 700;
         color: #1e266d;
     }
-    .card {
+    .section-2-our-guarantee .card {
         margin: 0 auto;
         display: block;
         width: 35vw;
@@ -165,19 +179,19 @@ div.links ul li a:hover {
         border: 2px solid #ccc;
         margin-bottom: 1.5rem;
     }
-    .card-title {
+    .section-2-our-guarantee .card-title {
         margin-top: 0.5rem;
         margin-bottom: 0.5rem;
         font-size: 1.3rem;
         font-weight: bold;
         color: #222121;
     }
-    .card-text {
+    .section-2-our-guarantee .card-text {
         margin-top: 1.5vh;
         font-size: 1.0rem;
         font-weight: 400;
     }
-    span.material-icons {
+    .section-2-our-guarantee span.material-icons {
         color: #2cd4d6;
         font-size: 2.5rem;
     }
@@ -190,17 +204,17 @@ div.links ul li a:hover {
         padding-top: 4vh;
         width: 100%;
     }
-    .guarantee-title {
+    .section-2-our-guarantee .guarantee-title {
         font-size: 3.0rem;
         margin-top: 5.0rem;
         margin-bottom: 4.0rem;
         font-weight: 700;
         color: #1e266d;
     }
-    .cards {
+    .section-2-our-guarantee .cards {
         width: 100%;
     }
-    .card {
+    .section-2-our-guarantee .card {
         display: flex;
         flex-direction: row;
         width: 18vw;
@@ -210,25 +224,25 @@ div.links ul li a:hover {
         margin-right: 1vw;
         margin-bottom: 0.5rem;
     }
-    .first-card {
+    .section-2-our-guarantee .first-card {
         margin-left: 8vw;
     }
-    .card-title {
+    .section-2-our-guarantee .card-title {
         margin-top: 1rem;
         margin-bottom: 1rem;
         font-size: 2.0rem;
         font-weight: bolder;
         color: #222121;
     }
-    .card-text {
+    .section-2-our-guarantee .card-text {
         margin-top: 4vh;
         font-size: 1.5rem;
         font-weight: 600;
     }
-    .card:hover {
+    .section-2-our-guarantee .card:hover {
         box-shadow: 0 0 11px rgba(33, 33, 33, .4);
     }
-    span.material-icons {
+    .section-2-our-guarantee span.material-icons {
         color: #2cd4d6;
         font-size: 3.5rem;
     }
@@ -239,95 +253,112 @@ div.links ul li a:hover {
 /* Fourth Page */
 
 /* Fifth Page */
+
 .section-5-our-products {
-  background-color: #1e266d;
-  height: 120vh;
-  padding: 7rem;
+    background-color: #1e266d;
+    height: 120vh;
+    padding: 7rem;
 }
+
 .products {
-  font-size: 2.5rem;
-  color: #f9f5f0;
-  font-weight: bold;
-  text-align: center;
+    font-size: 2.5rem;
+    color: #f9f5f0;
+    font-weight: bold;
+    text-align: center;
 }
+
 .our-products-img {
-  height: 11em;
-  width: 15em;
-  border-radius: 15px;
-  padding: 0.5rem;
+    height: 11em;
+    width: 15em;
+    border-radius: 15px;
+    padding: 0.5rem;
 }
+
 .section-5-our-products div div .card {
-  border-radius: 15px;
-  background: #f9f5f0;
-  font-weight: 600;
-  font-size: 1rem;
-  color: #252525;
+    border-radius: 15px;
+    background: #f9f5f0;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #252525;
 }
+
 .prime {
-  color: #4ba5fa;
-  font-weight: 700;
+    color: #4ba5fa;
+    font-weight: 700;
 }
+
 .dollar {
-  color: #23d3d3;
-  font-weight: 700;
+    color: #23d3d3;
+    font-weight: 700;
 }
+
 .child {
-  color: #8950fc;
-  font-weight: 700;
+    color: #8950fc;
+    font-weight: 700;
 }
+
 .card-body p.over {
-  color: #23d1d3;
-  font-size: 1rem;
-  display: inline;
-  font-weight: bolder;
+    color: #23d1d3;
+    font-size: 1rem;
+    display: inline;
+    font-weight: bolder;
 }
+
 .card-body p.wood {
-  color: #1e266d;
-  font-size: 1rem;
-  display: inline;
-  font-weight: bolder;
+    color: #1e266d;
+    font-size: 1rem;
+    display: inline;
+    font-weight: bolder;
 }
+
 .icon {
-  color: #23d1d3;
+    color: #23d1d3;
 }
 
 /* Sixth Page */
 
 /* Seventh Page */
-.section-7-next-steps{
+
+.section-7-next-steps {
     background-color: #f8f9fa;
 }
-.section-7-wrapper{
+
+.section-7-wrapper {
     padding: 4em 8em;
     margin: 0%;
     display: flex;
     flex-direction: column;
 }
-.section-7-wrapper .section-7-header{
+
+.section-7-wrapper .section-7-header {
     padding: 0%;
     margin: 0%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.section-7-header h2{
+
+.section-7-header h2 {
     color: #1e266d;
     font-weight: bold;
     padding: 0%;
     margin: 0%;
 }
-.section-7-header p{
+
+.section-7-header p {
     font-size: 3.5rem;
     font-weight: bolder;
     padding: 0%;
     margin: 0em 0em 1em 0em;
     color: #403C3C;
 }
-.section-7-wrapper .section-7-content{
+
+.section-7-wrapper .section-7-content {
     padding: 0%;
     margin: 0%;
 }
-.section-7-content .picture{
+
+.section-7-content .picture {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -337,24 +368,27 @@ div.links ul li a:hover {
     background-repeat: no-repeat;
     background-position: center;
 }
-.section-7-content .content{
+
+.section-7-content .content {
     padding: 0em 2em;
     margin: 0%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
-.section-7-content .content .contentItem{
+
+.section-7-content .content .contentItem {
     display: flex;
-    
 }
-.section-7-content .content .itemHeading{
+
+.section-7-content .content .itemHeading {
     padding: 1em;
     display: flex;
-    justify-content: center;  
+    justify-content: center;
     align-items: center;
 }
-.section-7-content .itemHeading p{
+
+.section-7-content .itemHeading p {
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -369,121 +403,126 @@ div.links ul li a:hover {
     text-align: center;
     font-size: 1.75rem;
 }
-.section-7-content .content .contentItem .textContent{
+
+.section-7-content .content .contentItem .textContent {
     padding: 0%;
     margin: 0%;
     display: flex;
-    justify-content: flex-start;  
+    justify-content: flex-start;
     align-items: center;
 }
-.section-7-content .textContent p{
+
+.section-7-content .textContent p {
     font-size: 2rem;
     padding: 0%;
     margin: 0%;
 }
-.section-7-content .content .textContent{
+
+.section-7-content .content .textContent {
     padding: 0%;
     color: rgb(19, 18, 18);
 }
-.section-7-content .overText{
+
+.section-7-content .overText {
     color: #23d3d3;
     font-weight: bold;
     font-size: 2rem;
 }
-.section-7-content .woodText{
-    color:  #1e266d;
+
+.section-7-content .woodText {
+    color: #1e266d;
     font-weight: bold;
     font-size: 2rem;
 }
 
-@media all and (min-width: 320px) and (max-width: 480px){
-    .section-7-wrapper{
+@media all and (min-width: 320px) and (max-width: 480px) {
+    .section-7-wrapper {
         padding: 4em 0.5em;
     }
-    .section-7-header h2{
+    .section-7-header h2 {
         font-size: 1.5rem;
     }
-    .section-7-header p{
+    .section-7-header p {
         font-size: 2.75rem;
         margin: 0em 0em 0.5em 0em;
     }
-    .section-7-wrapper .section-7-content{
+    .section-7-wrapper .section-7-content {
         padding: 0%;
         margin: 0%;
     }
-    .section-7-wrapper .section-7-content .picture{
+    .section-7-wrapper .section-7-content .picture {
         height: 25vh;
     }
-    .section-7-content .content{
+    .section-7-content .content {
         padding: 0em;
         margin: 0%;
     }
-    .section-7-content .content .contentItem{
+    .section-7-content .content .contentItem {
         display: flex;
     }
-    .section-7-content .content .itemHeading{
+    .section-7-content .content .itemHeading {
         padding: 1em 1em 1em 0em;
     }
-    .section-7-content .itemHeading p{
+    .section-7-content .itemHeading p {
         border-radius: 50%;
         width: 7.5rem;
         height: 7.5rem;
         padding: 1em;
         font-size: 1.25rem;
     }
-    .section-7-content .textContent p{
+    .section-7-content .textContent p {
         font-size: 1.5rem;
     }
-    .section-7-content .overText{
+    .section-7-content .overText {
         color: #23d3d3;
         font-weight: bold;
         font-size: 1.75rem;
     }
-    .section-7-content .woodText{
-        color:  #1e266d;
+    .section-7-content .woodText {
+        color: #1e266d;
         font-weight: bold;
         font-size: 1.75rem;
     }
 }
 
-@media all and (min-width: 481px) and (max-width: 768px){
-    .section-7-wrapper{
+@media all and (min-width: 481px) and (max-width: 768px) {
+    .section-7-wrapper {
         padding: 4em 1em;
     }
-    .section-7-header h2{
+    .section-7-header h2 {
         font-size: 1.75rem;
     }
-    .section-7-header p{
+    .section-7-header p {
         font-size: 3rem;
         margin: 0em 0em 1em 0em;
     }
-    .section-7-content .content{
+    .section-7-content .content {
         padding: 0em;
         margin: 0%;
     }
-    .section-7-content .content .contentItem{
+    .section-7-content .content .contentItem {
         display: flex;
     }
-    .section-7-content .content .itemHeading{
+    .section-7-content .content .itemHeading {
         padding: 1em 1em 1em 1.5em;
     }
-    .section-7-content .itemHeading p{
+    .section-7-content .itemHeading p {
         border-radius: 50%;
         width: 7rem;
         height: 7rem;
         padding: 1em;
         font-size: 1.25rem;
     }
-    .section-7-content .textContent p{
+    .section-7-content .textContent p {
         font-size: 1.75rem;
     }
-    .section-7-content .overText{
+    .section-7-content .overText {
         color: #23d3d3;
         font-weight: bold;
         font-size: 1.75rem;
     }
-    .section-7-content .woodText{
-        color:  #1e266d;
+    .section-7-content .woodText {
+        color: #1e266d;
         font-weight: bold;
         font-size: 1.75rem;
     }
@@ -499,17 +538,17 @@ div.links ul li a:hover {
         background-color: #1e266d;
         color: whitesmoke;
     }
-    form {
+    .section-9-footer form {
         display: flex;
         flex-direction: column;
         margin: 0 auto;
         width: 30vw;
     }
-    form.form-group label {
+    .section-9-footer form.form-group label {
         display: hidden;
         text-align: left;
     }
-    .form-group input {
+    .section-9-footer .form-group input {
         border: none;
         border-radius: none;
         height: 5vh;
@@ -517,19 +556,19 @@ div.links ul li a:hover {
         font-size: 1.0rem;
         width: 20vw;
     }
-    form .btn {
+    .section-9-footer form .btn {
         background-color: #2cd4d6;
         width: 15vw;
     }
-    button.btn {
+    .section-9-footer button.btn {
         /* padding: 0.5rem 1.0rem; */
         color: whitesmoke;
         font-size: 1.2rem;
     }
-    ul li a {
+    .section-9-footer ul li a {
         color: whitesmoke;
     }
-    span.material-icons {
+    .section-9-footer span.material-icons {
         color: #ffffff;
         font-size: 2.5rem;
     }
@@ -541,17 +580,17 @@ div.links ul li a:hover {
         background-color: #1e266d;
         color: whitesmoke;
     }
-    form {
+    .section-9-footer form {
         display: flex;
         flex-direction: column;
         margin: 0 auto;
         width: 30vw;
     }
-    form.form-group label {
+    .section-9-footer form.form-group label {
         display: hidden;
         text-align: left;
     }
-    .form-group input {
+    .section-9-footer .form-group input {
         border: none;
         border-radius: none;
         height: 5vh;
@@ -559,20 +598,20 @@ div.links ul li a:hover {
         font-size: 1.0rem;
         width: 30vw;
     }
-    form .btn {
+    .section-9-footer form .btn {
         background-color: #2cd4d6;
         /* width: 15vw; */
         margin-right: 15vw;
     }
-    button.btn {
+    .section-9-footer button.btn {
         /* padding: 0.5rem 1.0rem; */
         color: whitesmoke;
         font-size: 1.0rem;
     }
-    ul li a {
+    .section-9-footer ul li a {
         color: whitesmoke;
     }
-    span.material-icons {
+    .section-9-footer span.material-icons {
         color: #ffffff;
         font-size: 2.5rem;
     }
@@ -583,7 +622,7 @@ div.links ul li a:hover {
         height: 50vh;
         background-color: #1e266d;
     }
-    .page-footer {
+    .section-9-footer .page-footer {
         padding-top: 3vh;
     }
     .section-9-footer h5 {
@@ -596,30 +635,30 @@ div.links ul li a:hover {
         font-size: 1.5rem;
         font-weight: lighter;
     }
-    span.material-icons {
+    .section-9-footer span.material-icons {
         font-size: 2.0rem;
         color: whitesmoke;
     }
-    .form-group label {
+    .section-9-footer .form-group label {
         color: whitesmoke;
         font-size: 1.5rem;
     }
-    .form-group input {
+    .section-9-footer .form-group input {
         border: none;
         border-radius: none;
         height: 8vh;
         color: #403C3C;
         font-size: 1.5rem;
     }
-    form .btn {
+    .section-9-footer form .btn {
         background-color: #2cd4d6;
     }
-    button.btn {
+    .section-9-footer button.btn {
         padding: 1.0rem 2.0rem;
         color: whitesmoke;
         font-size: 1.5rem;
     }
-    span.material-icons {
+    .section-9-footer span.material-icons {
         color: #ffffff;
         font-size: 2.5rem;
     }
