@@ -575,6 +575,30 @@ div.links ul li a:hover {
     background-color: #eaf9f9;
 }
 
+@media (max-width: 480px) {
+    .section-8-blog {
+        height: 100vh;
+        padding: 1rem;
+    }
+    .blog-title-1 {
+        margin-top: 2rem;
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+    .blog-title-2 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 5vh;
+    }
+    .section-8-blog .carousel-caption h2 {
+        margin-bottom: 5vh;
+    }
+    .section-8-blog .carousel-caption p {
+        margin-bottom: 50.0vh;
+        font-size: 2.0rem;
+    }
+}
+
 @media (min-width: 481px) {
     .section-8-blog {
         height: 100vh;
@@ -628,7 +652,7 @@ div.links ul li a:hover {
 @media (max-width: 480px) {
     .section-9-footer {
         height: 150vh;
-        background-color: #1e266d;
+        background-color: #00387a;
         color: whitesmoke;
     }
     .section-9-footer form {
@@ -676,7 +700,7 @@ div.links ul li a:hover {
 @media (min-width: 481px) {
     .section-9-footer {
         height: 150vh;
-        background-color: #1e266d;
+        background-color: #00387a;
         color: whitesmoke;
     }
     .section-9-footer form {
@@ -719,7 +743,7 @@ div.links ul li a:hover {
 @media (min-width: 769px) {
     .section-9-footer {
         height: 68vh;
-        background-color: #1e266d;
+        background-color: #00387a;
     }
     .section-9-footer .page-footer {
         padding-top: 3vh;
