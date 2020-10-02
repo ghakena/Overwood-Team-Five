@@ -670,13 +670,13 @@ div.links ul li a:hover {
         padding-top: 3vh;
     }
     .section-9-footer h5 {
-        font-size: 1.3rem;
+        font-size: 2.0rem;
         font-weight: 600;
         color: whitesmoke;
     }
     .section-9-footer ul li a {
         color: whitesmoke;
-        font-size: 0.8rem;
+        font-size: 1.5rem;
         font-weight: lighter;
     }
     .section-9-footer span.material-icons {
@@ -692,14 +692,14 @@ div.links ul li a:hover {
         border-radius: none;
         height: 6vh;
         color: #403C3C;
-        font-size: 0.8rem;
+        font-size: 1.4rem;
         width: 24vw;
     }
     .section-9-footer form .btn {
         background-color: #2cd4d6;
         padding: 0.5rem 1.0rem;
         color: whitesmoke;
-        font-size: 0.8rem;
+        font-size: 1.4rem;
         width: 10vw;
     }
     .section-9-footer span.material-icons {
