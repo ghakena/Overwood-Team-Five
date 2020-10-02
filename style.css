@@ -131,11 +131,11 @@ div.links ul li a:hover {
     }
     .section-4-six-things .credentials-title-1 {
         margin-top: 2vh;
-        font-size: 2.0rem;
+        font-size: 1.5rem;
         font-weight: bold;
     }
     .section-4-six-things .credentials-title-2 {
-        font-size: 3.5rem;
+        font-size: 2.0rem;
         font-weight: bolder;
         margin-bottom: 5vh;
     }
@@ -145,21 +145,22 @@ div.links ul li a:hover {
     }
     .section-4-six-things .card-title {
         font-weight: bold;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
     .section-4-six-things .card {
         height: 40vh;
         background-color: #ffffff;
         border-radius: 5px;
+        margin-bottom: 2vh;
     }
     .section-4-six-things .card-div {
         margin: 0;
     }
     .section-4-six-things .card-text {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     .section-4-six-things .read-more {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     .section-4-six-things .material-icons {
         color: #7ae5e7;
@@ -194,21 +195,22 @@ div.links ul li a:hover {
     }
     .section-4-six-things .card-title {
         font-weight: bold;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
     .section-4-six-things .card {
         height: 40vh;
         background-color: #ffffff;
         border-radius: 5px;
+        margin-bottom: 2vh;
     }
     .section-4-six-things .card-div {
         margin: 0;
     }
     .section-4-six-things .card-text {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
     .section-4-six-things .read-more {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
     .section-4-six-things .material-icons {
         color: #7ae5e7;
@@ -572,7 +574,7 @@ div.links ul li a:hover {
 /* Ninth Page */
 @media (max-width: 480px) {
     .section-9-footer {
-        height: 220vh;
+        height: 150vh;
         background-color: #1e266d;
         color: whitesmoke;
     }
@@ -606,21 +608,21 @@ div.links ul li a:hover {
     }
     .section-9-footer ul li a {
         color: whitesmoke;
-        font-size: 0.9rem;
+        font-size: 1.4rem;
     }
     .section-9-footer span.material-icons {
         color: #ffffff;
         font-size: 1.2rem;
     }
     .section-9-footer h5 {
-        font-size: 1.4rem;
-        font-weight: 600;
+        font-size: 2.0rem;
+        font-weight: 500;
     }
 }
 
 @media (min-width: 481px) {
     .section-9-footer {
-        height: 220vh;
+        height: 150vh;
         background-color: #1e266d;
         color: whitesmoke;
     }
