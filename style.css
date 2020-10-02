@@ -14,6 +14,7 @@ body {
 /* Banner/Landing Page */
 
 /* Second Page */
+
 @media (min-width: 769px) {
     .section-2-our-guarantee {
         background-color: #f2f2f2;
@@ -88,7 +89,7 @@ body {
     }
 }
 
-@media (max-width: 481px) {
+@media (max-width: 768px) {
     .section-2-our-guarantee {
         background-color: #f2f2f2;
         height: 110vh;
@@ -129,6 +130,49 @@ body {
         font-size: 2.5rem;
     }
 }
+
+@media (max-width: 480px) {
+    .section-2-our-guarantee {
+        background-color: #f2f2f2;
+        height: 110vh;
+        padding-top: 4vh;
+        width: 100%;
+    }
+    .guarantee-title {
+        font-size: 2.0rem;
+        margin-top: 3.0rem;
+        margin-bottom: 2.0rem;
+        font-weight: 700;
+        color: #1e266d;
+    }
+    .card {
+        margin: 0 auto;
+        display: block;
+        width: 45vw;
+        height: 20vh;
+        margin-left: 27vw;
+        margin-right: 14vw;
+        border: 2px solid #ccc;
+        margin-bottom: 1.5rem;
+    }
+    .card-title {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+        color: #222121;
+    }
+    .card-text {
+        margin-top: 0.5vh;
+        font-size: 1.0rem;
+        font-weight: 400;
+    }
+    span.material-icons {
+        color: #2cd4d6;
+        font-size: 2.5rem;
+    }
+}
+
 /* Third Page */
 
 /* Fourth Page */
@@ -142,6 +186,7 @@ body {
 /* Eigth Page */
 
 /* Ninth Page */
+
 @media (min-width: 769px) {
     .section-9-footer {
         height: 50vh;
