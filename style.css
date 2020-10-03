@@ -32,11 +32,31 @@ body {
     /* position: absolute; */
     width: 340px;
     height: 445px;
-    /* left: 106px;
-    top: 317px; */
+    display:block;
+    position:relative;
     background-color: rgba(207, 247, 247, 0.54);
     border-radius: 12px;
 }
+
+.circle {
+    position:absolute;
+    height:70px;
+    width:70px;
+    border-radius:50px;
+    left: 7%;
+    margin-left:25px;
+    /* top: -20px; */
+  }
+
+  img {
+    border-radius: 50%;
+    height:70px;
+    width:70px;
+    position: relative;;
+    
+  }
+  
+
 .triangle-down {
     width: 0;
 	height: 0;
