@@ -64,9 +64,9 @@ div.links ul li a {
     letter-spacing: 0.03rem;
 }
 
-div.links ul li a:hover {
-    /* color: whitesmoke; */
-}
+/* div.links ul li a:hover {
+    color: whitesmoke;
+} */
 
 form a.btn-login {
     background-color: #23d3d3;
