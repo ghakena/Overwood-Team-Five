@@ -1058,7 +1058,7 @@ h6 {
         margin-bottom: 5vh;
     }
     .section-8-blog .carousel-caption p {
-        margin-bottom: 50.0vh;
+        margin-bottom: 40.0vh;
         font-size: 1.65rem;
     }
 }
@@ -1183,11 +1183,9 @@ h6 {
     }
     .section-9-footer form .btn {
         background-color: #2cd4d6;
-        /* width: 15vw; */
         margin-right: 15vw;
     }
     .section-9-footer button.btn {
-        /* padding: 0.5rem 1.0rem; */
         color: whitesmoke;
         font-size: 1.0rem;
     }
@@ -1359,7 +1357,7 @@ h6 {
 @media (width: 360px) {
     .section-9-footer {
         position: absolute;
-        top: 677.0vh;
+        top: 925.0vh;
         height: 140vh;
         background-color: #00387a;
         color: whitesmoke;
