@@ -21,7 +21,6 @@ body {
 }
 
 /* Please add code in the space right below your section */
-
 /* Banner/Landing Page */
 
 .section-1-banner {
@@ -350,7 +349,8 @@ form a.btn-createAcc {
 /* Second Page */
 .section-2-our-guarantee {
     padding-top: 6rem;
-    padding-bottom: 8rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
     background-color: #fbfcfc;
     
 }
@@ -381,11 +381,12 @@ form a.btn-createAcc {
 
 .section-3-mission-values {
     background-color: #89abd1;
-    height: 150vh;
+    height: 106vh;
+    margin-top: 10%;
 }
 
 .jumbotron {
-    height: 120vh;
+    height: 80vh;
     background-color: #00387a;
     margin-top: 10vh;
 }
@@ -404,7 +405,9 @@ form a.btn-createAcc {
     color: whitesmoke;
     font-size: 1.65rem;
 }
-
+/* .CEO {
+    height: 30rem;
+} */
 /* Fourth Page */
 
 .section-4-six-things .credentials-title {
