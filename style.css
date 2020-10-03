@@ -340,7 +340,15 @@ form a.btn-createAcc {
 }
 
 /* Second Page */
-
+.section-2-our-guarantee {
+    padding-top: 6rem;
+    padding-bottom: 8rem;
+    background-color: #fbfcfc;
+    
+}
+.texty {
+    font-size: 1.5rem
+}
 /* Third Page */
 
 /* Fourth Page */
@@ -659,6 +667,7 @@ form a.btn-createAcc {
 
 .section-6-testimonials {
     margin-top: 5%;
+    margin-bottom: 8.5%
 }
 
 .rectangle {
@@ -725,8 +734,8 @@ form a.btn-createAcc {
     font-size: 4rem;
     text-align: center;
     line-height: 67px;
-    /* identical to box height */
-    color: rgba(12, 12, 19, 0.86);
+    color: #403C3C;
+
 }
 
 .titles {
@@ -759,7 +768,7 @@ form a.btn-createAcc {
 
 .names {
     text-align: center;
-    color: #0C0C13;
+    color: #403C3C;
     font-size: 2rem;
 }
 
