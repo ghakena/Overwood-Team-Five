@@ -134,7 +134,7 @@ a.btn-investNow:hover {
 @media (max-width: 480px) {
     .section-4-six-things {
         background-color: #fbfcfc;
-        height: 185vh;
+        height: 225vh;
         color: #403c3c;
     }
     .section-4-six-things .credentials-title-1 {
@@ -156,7 +156,7 @@ a.btn-investNow:hover {
         font-size: 1.8rem;
     }
     .section-4-six-things .card {
-        height: 25vh;
+        height: 32vh;
         /* width: 100vw; */
         background-color: #ffffff;
         border-radius: 5px;
@@ -260,10 +260,13 @@ a.btn-investNow:hover {
     }
     .section-4-six-things .card {
         height: 40vh;
-        /* width: 25vw; */
+        width: 26vw;
+        /* margin-left: 0vw;
+        margin-right: 0vw; */
         background-color: #ffffff;
         border-radius: 5px;
         margin-bottom: 3vh;
+        /* border: 1px solid grey; */
     }
     .section-4-six-things .card-div {
         margin: 0;
