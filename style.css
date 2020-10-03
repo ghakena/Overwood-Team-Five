@@ -121,6 +121,224 @@ a.btn-investNow:hover {
     color: #23d3d3;
 }
 
+/* newly added by Gibbs */
+
+.section-1-banner {
+    height: 100vh;
+}
+
+.banner {
+    position: absolute;
+    top: 5vh;
+    font-size: 1.5rem;
+}
+
+p a span {
+    font-size: 1.5rem;
+}
+
+.banner div p.rates {
+    color: #1e266d;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+a.btn-investNow {
+    background-color: #1e266d;
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 1.5rem;
+    border-radius: 2px;
+    padding: 1.0rem 1.5rem;
+    position: absolute;
+    margin-top: 0vh;
+}
+
+form a.btn-login {
+    background-color: #23d3d3;
+    color: whitesmoke;
+    font-weight: 500;
+    padding: 1.0rem 2.0rem;
+    border: none;
+    font-size: 1.5rem;
+    margin-top: 3vh;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+}
+
+form a.btn-createAcc {
+    background-color: #1e266d;
+    color: whitesmoke;
+    font-weight: 500;
+    padding: 1.0rem 2.0rem;
+    border: none;
+    font-size: 1.5rem;
+    margin-top: 3vh;
+    margin-right: 1.5vw;
+    margin-left: 1.5vw;
+}
+
+.nav-item .nav-link {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .navbar .nav-link {
+        color: whitesmoke;
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    .navbar-nav {
+        /* background-color: whitesmoke; */
+        background-color: #1e266d;
+    }
+    .section-1-banner {
+        background-image: none;
+        background: #e5eef6;
+        height: 75vh;
+    }
+    .banner {
+        position: absolute;
+        margin-top: 20vh;
+        font-size: 2.5rem;
+    }
+    .banner div p.rates {
+        color: #1e266d;
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+    .banner h1 {
+        font-size: 2.8rem;
+    }
+    p a span {
+        font-size: 1.8rem;
+    }
+    form a.btn-login {
+        background-color: #23d3d3;
+        color: whitesmoke;
+        font-weight: 500;
+        padding: 1.0rem 2.0rem;
+        border: none;
+        font-size: 1.5rem;
+        margin-top: 6.5vh;
+        margin-left: 1.5vw;
+        margin-right: 1.5vw;
+    }
+    form a.btn-createAcc {
+        background-color: #1e266d;
+        color: whitesmoke;
+        font-weight: 500;
+        padding: 1.0rem 2.0rem;
+        border: none;
+        font-size: 1.5rem;
+        margin-top: 6.5vh;
+        margin-right: 1.5vw;
+        margin-left: 1.5vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar .nav-link {
+        color: whitesmoke;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .section-1-banner {
+        background-image: none;
+        background: #e5eef6;
+        height: 100vh;
+    }
+    .banner {
+        position: absolute;
+        margin-top: 25vh;
+    }
+    .banner div h1 {
+        font-size: 3.0rem;
+    }
+    .banner div p.rates {
+        font-size: 1.2rem;
+    }
+    .banner div p {
+        font-size: 1.3rem;
+    }
+    p a span {
+        font-size: 1.3rem;
+    }
+    form a.btn-login {
+        background-color: #23d3d3;
+        color: whitesmoke;
+        font-weight: 400;
+        padding: 1.0rem 1.0rem;
+        border: none;
+        font-size: 1.3rem;
+        margin-top: 6.5vh;
+        margin-left: 3.0vw;
+        margin-right: 1.5vw;
+    }
+    form a.btn-createAcc {
+        background-color: #1e266d;
+        color: whitesmoke;
+        font-weight: 400;
+        padding: 1.0rem 1.0rem;
+        border: none;
+        font-size: 1.3rem;
+        margin-top: 6.5vh;
+        margin-right: 1.5vw;
+        margin-left: 1.5vw;
+    }
+}
+
+@media (width: 360px) {
+    .navbar .nav-link {
+        color: whitesmoke;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .section-1-banner {
+        background-image: none;
+        background: #e5eef6;
+        height: 100vh;
+    }
+    .banner {
+        position: absolute;
+        margin-top: 30vh;
+    }
+    .banner div h1 {
+        font-size: 3.0rem;
+    }
+    .banner div p.rates {
+        font-size: 1.2rem;
+    }
+    .banner div p {
+        font-size: 1.3rem;
+    }
+    p a span {
+        font-size: 1.3rem;
+    }
+    form a.btn-login {
+        background-color: #23d3d3;
+        color: whitesmoke;
+        font-weight: 400;
+        padding: 1.0rem 1.0rem;
+        border: none;
+        font-size: 1.3rem;
+        margin-top: 6.5vh;
+        margin-left: 3.0vw;
+        margin-right: 1.5vw;
+    }
+    form a.btn-createAcc {
+        background-color: #1e266d;
+        color: whitesmoke;
+        font-weight: 400;
+        padding: 1.0rem 1.0rem;
+        border: none;
+        font-size: 1.3rem;
+        margin-top: 6.5vh;
+        margin-right: 1.5vw;
+        margin-left: 1.5vw;
+    }
+}
+
 /* Second Page */
 
 /* Third Page */
@@ -187,11 +405,11 @@ a.btn-investNow:hover {
 @media (min-width: 481px) {
     .section-4-six-things {
         background-color: #fbfcfc;
-        height: 80vh;
+        height: 85vh;
         color: #403c3c;
     }
     .section-4-six-things .credentials-title-1 {
-        margin-top: 2vh;
+        margin-top: 5vh;
         font-size: 1.8rem;
         font-weight: bold;
     }
@@ -208,7 +426,7 @@ a.btn-investNow:hover {
         font-size: 1.8rem;
     }
     .section-4-six-things .card {
-        height: 28vh;
+        height: 30vh;
         background-color: #ffffff;
         border-radius: 5px;
         margin-bottom: 2vh;
@@ -260,6 +478,60 @@ a.btn-investNow:hover {
     }
     .section-4-six-things .card {
         height: 40vh;
+        width: 26vw;
+        /* margin-left: 0vw;
+        margin-right: 0vw; */
+        background-color: #ffffff;
+        border-radius: 5px;
+        margin-bottom: 3vh;
+        /* border: 1px solid grey; */
+    }
+    .section-4-six-things .card-div {
+        margin: 0;
+    }
+    .section-4-six-things .card-text {
+        font-size: 1.4rem;
+    }
+    .section-4-six-things .read-more {
+        font-size: 1.4rem;
+    }
+    .section-4-six-things .material-icons {
+        color: #7ae5e7;
+        font-size: 2.8rem;
+    }
+    .section-4-six-things .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+        transition-delay: 0.2s;
+        -webkit-transition-delay: 0.2s;
+    }
+}
+
+@media (width: 1024px) {
+    .section-4-six-things {
+        background-color: #fbfcfc;
+        height: 70vh;
+        color: #403c3c;
+    }
+    .section-4-six-things .credentials-title-1 {
+        margin-top: 8vh;
+        font-size: 2.0rem;
+        font-weight: bold;
+    }
+    .section-4-six-things .credentials-title-2 {
+        font-size: 2.5rem;
+        font-weight: bolder;
+        margin-bottom: 5vh;
+    }
+    .container {
+        margin-bottom: 5vh;
+    }
+    .section-4-six-things .card-title {
+        font-weight: bold;
+        font-size: 1.7rem;
+    }
+    .section-4-six-things .card {
+        height: 18vh;
         width: 26vw;
         /* margin-left: 0vw;
         margin-right: 0vw; */
@@ -626,7 +898,7 @@ a.btn-investNow:hover {
 @media (max-width: 480px) {
     .section-8-blog {
         position: absolute;
-        height: 60vh;
+        height: 80vh;
         /* padding: 1rem; */
     }
     .blog-title-1 {
@@ -661,13 +933,13 @@ a.btn-investNow:hover {
     .blog-title-2 {
         font-size: 2.5rem;
         font-weight: bold;
-        margin-bottom: 5vh;
+        margin-bottom: 0vh;
     }
     .section-8-blog .carousel-caption h2 {
         margin-bottom: 5vh;
     }
     .section-8-blog .carousel-caption p {
-        margin-bottom: 50.0vh;
+        margin-bottom: 10.0vh;
         font-size: 2.0rem;
     }
     .check-all-posts {
@@ -704,13 +976,41 @@ a.btn-investNow:hover {
     }
 }
 
+@media (width: 1024px) {
+    .section-8-blog {
+        height: 68vh;
+        padding: 1rem;
+    }
+    .blog-title-1 {
+        margin-top: 2rem;
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+    .blog-title-2 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 5vh;
+    }
+    .section-8-blog .carousel-caption h2 {
+        margin-bottom: 2vh;
+    }
+    .section-8-blog .carousel-caption p {
+        margin-bottom: 10.0vh;
+        font-size: 2.0rem;
+    }
+    .check-all-posts {
+        font-size: 2.0rem;
+        font-weight: bold;
+    }
+}
+
 /* Ninth Page */
 
 @media (max-width: 480px) {
     .section-9-footer {
         position: absolute;
-        top: 568vh;
-        height: 115vh;
+        top: 628.0vh;
+        height: 140vh;
         background-color: #00387a;
         color: whitesmoke;
         /* margin-top: 0vh; */
@@ -759,9 +1059,12 @@ a.btn-investNow:hover {
 
 @media (min-width: 481px) {
     .section-9-footer {
-        height: 32vh;
+        position: absolute;
+        top: 376vh;
+        height: 35vh;
         background-color: #00387a;
         color: whitesmoke;
+        width: 100vw;
     }
     .section-9-footer form {
         display: flex;
@@ -808,8 +1111,10 @@ a.btn-investNow:hover {
 
 @media (min-width: 769px) {
     .section-9-footer {
+        position: absolute;
         height: 58vh;
         background-color: #00387a;
+        top: 680vh;
     }
     .section-9-footer .page-footer {
         padding-top: 3vh;
@@ -850,5 +1155,105 @@ a.btn-investNow:hover {
     .section-9-footer span.material-icons {
         color: #ffffff;
         font-size: 2.5rem;
+    }
+}
+
+@media (width: 1024px) {
+    .section-9-footer {
+        position: absolute;
+        top: 367.0vh;
+        height: 25vh;
+        background-color: #00387a;
+    }
+    .section-9-footer .page-footer {
+        padding-top: 3vh;
+    }
+    .section-9-footer h5 {
+        font-size: 2.0rem;
+        font-weight: 600;
+        color: whitesmoke;
+    }
+    .section-9-footer ul li a {
+        color: whitesmoke;
+        font-size: 1.5rem;
+        font-weight: lighter;
+    }
+    .section-9-footer span.material-icons {
+        font-size: 2.0rem;
+        color: whitesmoke;
+    }
+    .section-9-footer .form-group label {
+        color: whitesmoke;
+        font-size: 1.5rem;
+    }
+    .section-9-footer .form-group input {
+        border: none;
+        border-radius: none;
+        height: 3vh;
+        color: #403C3C;
+        font-size: 1.4rem;
+        width: 24vw;
+    }
+    .section-9-footer form .btn {
+        background-color: #2cd4d6;
+        padding: 0.5rem 1.0rem;
+        color: whitesmoke;
+        font-size: 1.4rem;
+        width: 10vw;
+    }
+    .section-9-footer span.material-icons {
+        color: #ffffff;
+        font-size: 2.5rem;
+    }
+}
+
+@media (width: 360px) {
+    .section-9-footer {
+        position: absolute;
+        top: 677.0vh;
+        height: 140vh;
+        background-color: #00387a;
+        color: whitesmoke;
+        /* margin-top: 0vh; */
+    }
+    .section-9-footer form {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 30vw;
+    }
+    .section-9-footer form.form-group label {
+        display: hidden;
+        text-align: left;
+    }
+    .section-9-footer .form-group input {
+        border: none;
+        border-radius: none;
+        height: 5vh;
+        color: #403C3C;
+        font-size: 1.0rem;
+        width: 30vw;
+    }
+    .section-9-footer form .btn {
+        background-color: #2cd4d6;
+        /* width: 15vw; */
+        margin-right: 15vw;
+    }
+    .section-9-footer button.btn {
+        /* padding: 0.5rem 1.0rem; */
+        color: whitesmoke;
+        font-size: 1.0rem;
+    }
+    .section-9-footer ul li a {
+        color: whitesmoke;
+        font-size: 1.4rem;
+    }
+    .section-9-footer span.material-icons {
+        color: #ffffff;
+        font-size: 1.2rem;
+    }
+    .section-9-footer h5 {
+        font-size: 2.0rem;
+        font-weight: 500;
     }
 }
