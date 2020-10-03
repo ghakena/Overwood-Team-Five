@@ -340,15 +340,21 @@ form a.btn-createAcc {
 }
 
 /* Second Page */
+
 .section-2-our-guarantee {
     padding-top: 6rem;
     padding-bottom: 8rem;
     background-color: #fbfcfc;
-    
 }
+
+/* .section-2-our-guarantee  .card {
+    height: 30vh;
+    margin-bottom: 2vh;
+} */
 .texty {
     font-size: 1.5rem
 }
+
 /* Third Page */
 
 /* @media (min-width: 769px) {
@@ -392,6 +398,7 @@ form a.btn-createAcc {
     font-size: 3.6rem;
     font-weight: bold;
 }
+
 .container .jumbotron .mission-body p {
     color: whitesmoke;
     font-size: 1.65rem;
@@ -781,7 +788,6 @@ form a.btn-createAcc {
     text-align: center;
     line-height: 67px;
     color: #403C3C;
-
 }
 
 .titles {
