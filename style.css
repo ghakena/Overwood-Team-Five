@@ -359,6 +359,52 @@ form a.btn-createAcc {
 }
 /* Third Page */
 
+/* @media (min-width: 769px) {
+    .section-3-mission-values {
+        height: 80vh;
+        background-color: #00387a;
+        color: whitesmoke;
+        padding: 2.0rem;
+    }
+    .mission-values-title-1 {
+        font-size: 1.8rem;
+        font-weight: bold;
+        color: rgb(122, 122, 122);
+    }
+    .mission-values-title-2 {
+        font-size: 3.6rem;
+        font-weight: bold;
+        color: whitesmoke;
+    }
+    
+} */
+
+.section-3-mission-values {
+    background-color: #89abd1;
+    height: 150vh;
+}
+
+.jumbotron {
+    height: 120vh;
+    background-color: #00387a;
+    margin-top: 10vh;
+}
+
+.container .jumbotron .heading h5 {
+    color: whitesmoke;
+    font-size: 2.0rem;
+}
+
+.container .jumbotron .heading h1 {
+    color: whitesmoke;
+    font-size: 3.6rem;
+    font-weight: bold;
+}
+.container .jumbotron .mission-body p {
+    color: whitesmoke;
+    font-size: 1.65rem;
+}
+
 /* Fourth Page */
 
 .section-4-six-things .credentials-title {
@@ -1175,7 +1221,7 @@ h6 {
 @media (max-width: 480px) {
     .section-9-footer {
         position: absolute;
-        top: 824.5vh;
+        top: 974.5vh;
         height: 120vh;
         background-color: #00387a;
         color: whitesmoke;
@@ -1224,7 +1270,7 @@ h6 {
     .section-9-footer {
         position: absolute;
         /* top: 376vh; */
-        top: 431.0vh;
+        top: 581vh;
         height: 35vh;
         background-color: #00387a;
         color: whitesmoke;
@@ -1325,7 +1371,7 @@ h6 {
 @media (width: 1024px) {
     .section-9-footer {
         position: absolute;
-        top: 411.0vh;
+        top: 561.0vh;
         height: 25vh;
         background-color: #00387a;
     }
@@ -1374,7 +1420,7 @@ h6 {
 @media (width: 360px) {
     .section-9-footer {
         position: absolute;
-        top: 925.0vh;
+        top: 1075.0vh;
         height: 140vh;
         background-color: #00387a;
         color: whitesmoke;
