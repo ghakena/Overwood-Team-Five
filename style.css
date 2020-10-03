@@ -1159,10 +1159,9 @@ h6 {
     .section-9-footer {
         position: absolute;
         top: 824.5vh;
-        height: 130vh;
+        height: 120vh;
         background-color: #00387a;
         color: whitesmoke;
-        /* margin-top: 0vh; */
     }
     .section-9-footer form {
         display: flex;
@@ -1209,7 +1208,8 @@ h6 {
 @media (min-width: 481px) {
     .section-9-footer {
         position: absolute;
-        top: 376vh;
+        /* top: 376vh; */
+        top: 431.0vh;
         height: 35vh;
         background-color: #00387a;
         color: whitesmoke;
