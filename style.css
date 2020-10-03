@@ -1230,7 +1230,7 @@ h6 {
 @media (max-width: 480px) {
     .section-9-footer {
         position: absolute;
-        top: 1074.5vh;
+        top: 1028.0vh;
         height: 120vh;
         background-color: #00387a;
         color: whitesmoke;
@@ -1279,7 +1279,7 @@ h6 {
     .section-9-footer {
         position: absolute;
         /* top: 376vh; */
-        top: 627vh;
+        top: 585.0vh;
         height: 35vh;
         background-color: #00387a;
         color: whitesmoke;
@@ -1333,7 +1333,7 @@ h6 {
         position: absolute;
         height: 58vh;
         background-color: #00387a;
-        top: 1016vh;
+        top: 983.0vh;
     }
     .section-9-footer .page-footer {
         padding-top: 3vh;
@@ -1380,7 +1380,7 @@ h6 {
 @media (width: 1024px) {
     .section-9-footer {
         position: absolute;
-        top: 594.5vh;
+        top: 553.5vh;
         height: 25vh;
         background-color: #00387a;
     }
@@ -1429,7 +1429,7 @@ h6 {
 @media (width: 360px) {
     .section-9-footer {
         position: absolute;
-        top: 1199.0vh;
+        top: 1151.5vh;
         height: 140vh;
         background-color: #00387a;
         color: whitesmoke;
