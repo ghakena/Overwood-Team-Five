@@ -128,10 +128,12 @@ a.btn-investNow {
     font-weight: 600;
     font-size: 2rem;
     border-radius: 5px;
+    font-family: 'Heebo', sans-serif;
 }
 
 a.btn-investNow:hover {
-    color: #23d3d3;
+    background-color: #23d3d3;
+    color: #1e266d;
 }
 
 /* newly added by Gibbs */
