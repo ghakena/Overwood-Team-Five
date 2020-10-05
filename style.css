@@ -8,15 +8,6 @@
     font-size: 10px;
 }
 
-/* nav {
-    height: 100px;
-} */
-
-/* main{
-    min-height:calc(100vh - 100px);
-    
-} */
-
 body {
     font-family: "Poppins", sans-serif;
     color: #403c3c;
@@ -67,10 +58,6 @@ div.links ul li a {
     color: whitesmoke;
     letter-spacing: 0.03rem;
 }
-
-/* div.links ul li a:hover {
-    color: whitesmoke;
-} */
 
 form a.btn-login {
     background-color: #23d3d3;
@@ -150,7 +137,8 @@ a.btn-investNow:hover {
 }
 
 p a span {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    font-family: 'Heebo', sans-serif;
 }
 
 .banner div p.rates {
@@ -195,7 +183,7 @@ form a.btn-createAcc {
 }
 
 .nav-item .nav-link {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     /* font-weight: 500; */
     font-family: 'Heebo', sans-serif;
 }
