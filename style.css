@@ -10,6 +10,7 @@
 /* nav {
     height: 100px;
 } */
+
 /* main{
     min-height:calc(100vh - 100px);
     
@@ -21,6 +22,7 @@ body {
 }
 
 /* Please add code in the space right below your section */
+
 /* Banner/Landing Page */
 
 .section-1-banner {
@@ -359,6 +361,7 @@ form a.btn-createAcc {
     height: 30vh;
     margin-bottom: 2vh;
 } */
+
 .texty {
     font-size: 1.5rem
 }
@@ -412,9 +415,65 @@ form a.btn-createAcc {
     color: whitesmoke;
     font-size: 1.65rem;
 }
+
+@media (width: 360px) {
+    .section-3-mission-values {
+        background-color: #89abd1;
+        height: 106vh;
+        margin-top: 10%;
+    }
+    .jumbotron {
+        height: 80vh;
+        background-color: #00387a;
+        margin-top: 10vh;
+    }
+    .container .jumbotron .heading h5 {
+        color: whitesmoke;
+        font-size: 1.6rem;
+        font-weight: 300;
+    }
+    .container .jumbotron .heading h1 {
+        color: whitesmoke;
+        font-size: 2.4rem;
+        font-weight: 500;
+    }
+    .container .jumbotron .mission-body p {
+        color: whitesmoke;
+        font-size: 1.40rem;
+    }
+}
+
+@media (width: 375px) {
+    .section-3-mission-values {
+        background-color: #89abd1;
+        height: 106vh;
+        margin-top: 10%;
+    }
+    .jumbotron {
+        height: 80vh;
+        background-color: #00387a;
+        margin-top: 10vh;
+    }
+    .container .jumbotron .heading h5 {
+        color: whitesmoke;
+        font-size: 1.6rem;
+        font-weight: 300;
+    }
+    .container .jumbotron .heading h1 {
+        color: whitesmoke;
+        font-size: 2.4rem;
+        font-weight: 500;
+    }
+    .container .jumbotron .mission-body p {
+        color: whitesmoke;
+        font-size: 1.40rem;
+    }
+}
+
 /* .CEO {
     height: 30rem;
 } */
+
 /* Fourth Page */
 
 .section-4-six-things .credentials-title {
@@ -1430,6 +1489,57 @@ h6 {
     .section-9-footer {
         position: absolute;
         top: 1151.5vh;
+        height: 140vh;
+        background-color: #00387a;
+        color: whitesmoke;
+        /* margin-top: 0vh; */
+    }
+    .section-9-footer form {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 30vw;
+    }
+    .section-9-footer form.form-group label {
+        display: hidden;
+        text-align: left;
+    }
+    .section-9-footer .form-group input {
+        border: none;
+        border-radius: none;
+        height: 5vh;
+        color: #403C3C;
+        font-size: 1.0rem;
+        width: 30vw;
+    }
+    .section-9-footer form .btn {
+        background-color: #2cd4d6;
+        /* width: 15vw; */
+        margin-right: 15vw;
+    }
+    .section-9-footer button.btn {
+        /* padding: 0.5rem 1.0rem; */
+        color: whitesmoke;
+        font-size: 1.0rem;
+    }
+    .section-9-footer ul li a {
+        color: whitesmoke;
+        font-size: 1.4rem;
+    }
+    .section-9-footer span.material-icons {
+        color: #ffffff;
+        font-size: 1.2rem;
+    }
+    .section-9-footer h5 {
+        font-size: 2.0rem;
+        font-weight: 500;
+    }
+}
+
+@media (width: 375px) {
+    .section-9-footer {
+        position: absolute;
+        top: 1128.0vh;
         height: 140vh;
         background-color: #00387a;
         color: whitesmoke;
