@@ -74,7 +74,8 @@ div.links ul li a {
 form a.btn-login {
     background-color: #23d3d3;
     color: whitesmoke;
-    font-weight: 600;
+    font-weight: bold;
+    font-family: 'Heebo', sans-serif;
 }
 
 form a.btn-login:hover {
@@ -85,11 +86,13 @@ form a.btn-login:hover {
 form a.btn-createAcc {
     background-color: #1e266d;
     color: whitesmoke;
-    font-weight: 600;
+    font-weight: bold;
+    font-family: 'Heebo', sans-serif;
 }
 
 form a.btn-createAcc:hover {
-    color: #9df3f5;
+    background-color: #23d3d3;
+    color: #1e266d;
 }
 
 .banner {
